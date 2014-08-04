@@ -9,6 +9,12 @@ Vending Machine Requirements
 ==========
 For the sake of simplicity, a user will only be able to enter in a quarter at a time. If a user has entered enough money to make a purchase and clicks on an item, that item should be put into the "item return". If a user attempts to purchase an item but has not entered sufficient change, the "info screen" should show how much is still needed.
 
+This vending machine will only have three items in stock:
+* French Roast, price: 1.00
+* Colombian, price: 1.25
+* Expensive, price: 2.25
+
+Initially, each item will have a total of 10 in stock. The stock counts will not persist across page loads.
 
 Here are some simple requirements, just to get you going. Depending on how well we do, I will continue to add to them:
 
