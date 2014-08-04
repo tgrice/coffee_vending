@@ -18,11 +18,13 @@ When I click on the "insert 25c" button
 
 Then the info screen should read 0.25
 
+
 Given that I have entered some amount of money
 
 When I click on the "reset" button
 
 Then the info screen should read 0.00
+
 
 Given that I have entered sufficient money to purchase something
 
@@ -31,6 +33,7 @@ When I click on an item to purchase it
 Then that item will be put into the item return
 
 And that item will have one less in stock
+
 
 Given that I have entered sufficient money to purchase an item
 
