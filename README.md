@@ -61,5 +61,15 @@ Toolchain setup
 * There are several tools that we've been learning about that need to be installed via NPM, so we will probably need a `package.json`.
 * We're going to do some DOM manipulation, so you might need jQuery. How about a `bower.json`?
 * I haven't made a `scripts` or `specs` directory, we'll need those as well as a `Gruntfile.js` to get going. You will need to add `grunt` and any necessary `grunt-contrib` files to your `package.json`.
-* Don't forget that we've been using testem to run tests. This means we will also need a `testem.json`
-* If you've added all of these things, it might be time to do an `npm install` and a `bower install`
+* Don't forget that we've been using testem to run tests. This means we will also need a `testem.json`.
+* If you've added all of these things, it might be time to do an `npm install` and a `bower install`.
+
+General exercise advice
+----------
+* Think about the different responsibilities involved and separate your classes based on that.
+
+Troubleshooting
+----------
+* Once you've created a file, make sure that its compiled version gets added to both the `testem.json` and the `index.html` files.
+* Take script load order into account. Something like jQuery will probably used by the other classes, so it will need to be loaded prior to that.
+* If you're stuck on anything, refer to the other repositories we've worked with like the [Playground](https://github.com/kellyaj/coffee_playground) or [Coinchanger](https://github.com/kellyaj/coffee_coinchanger).
