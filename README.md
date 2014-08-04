@@ -83,3 +83,9 @@ Then it will not be vended
 And the info screen should flash a message indicating that item is out of stock
 
 
+----------
+Given that I have entered more than sufficient money to purchase an item
+
+When I click on an item that costs less than the amount I have entered
+
+Then the excess amount will be placed in the change container
