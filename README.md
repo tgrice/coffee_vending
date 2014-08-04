@@ -13,22 +13,33 @@ For the sake of simplicity, a user will only be able to enter in a quarter at a 
 Here are some simple requirements, just to get you going. Depending on how well we do, I will continue to add to them:
 
 Given that I have not inserted any money
+
 When I click on the "insert 25c" button
+
 Then the info screen should read 0.25
 
 Given that I have entered some amount of money
+
 When I click on the "reset" button
+
 Then the info screen should read 0.00
 
 Given that I have entered sufficient money to purchase something
+
 When I click on an item to purchase it
+
 Then that item will be put into the item return
+
 And that item will have one less in stock
 
 Given that I have entered sufficient money to purchase an item
+
 And that item is not in stock
+
 When I click on the item to purchase it
+
 Then it will not be vended
+
 And the info screen should flash a message indicating that item is out of stock
 
 
