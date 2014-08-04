@@ -19,4 +19,21 @@
       <div class="item-return">Items</div>
     </div>
   </body>
+<script src="bower_components/jquery/jquery.js"></script>
+<script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+<script src="bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="bower_components/jquery-validation/dist/additional-methods.min.js"></script>
+<script src="bower_components/underscore/underscore.js"></script>
+<script src="bower_components/backbone/backbone.js"></script>
+<script src=".tmp/scripts/coffee.js"></script>
+<script src=".tmp/scripts/machine.js"></script>
+<script src=".tmp/scripts/vendingController.js"></script>
+<script>
+
+  $(function() {
+    var vc = new VendingController();
+    vc.buttons();
+    }
+  );
+</script>
 </html>
