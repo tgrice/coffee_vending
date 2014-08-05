@@ -4,8 +4,8 @@
   Machine = (function() {
     function Machine() {}
 
-    Machine.prototype.takePayment = function(ttl, amt) {
-      return ttl = amt + ttl;
+    Machine.prototype.takePayment = function(total, amt) {
+      return total = amt + total;
     };
 
     Machine.prototype.makePurchase = function(cost, payment) {

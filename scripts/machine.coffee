@@ -1,7 +1,7 @@
 class Machine
 
-  takePayment: (ttl, amt) ->
-    ttl = amt + ttl
+  takePayment: (total, amt) ->
+    total = amt + total
 
   makePurchase: (cost, payment) ->
     payment - cost
